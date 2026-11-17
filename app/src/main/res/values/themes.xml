@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ChloeTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:statusBarColor">@color/chloe_red</item>
+        <item name="android:navigationBarColor">@color/chloe_red_dark</item>
+        <item name="android:colorAccent">@color/white</item>
+    </style>
+</resources>
