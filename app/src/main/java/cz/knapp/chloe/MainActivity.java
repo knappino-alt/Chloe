@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         web = new WebView(this);
-        web.setBackgroundColor(Color.parseColor("#D7263D"));
+        web.setBackgroundColor(Color.parseColor("#060608"));
         setContentView(web);
         goFullscreen();
 
@@ -127,10 +127,10 @@ public class MainActivity extends Activity {
         String html = "<!DOCTYPE html><html><head><meta charset='utf-8'>"
                 + "<meta name='viewport' content='width=device-width,initial-scale=1'>"
                 + "<style>body{margin:0;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;"
-                + "font-family:sans-serif;color:#fff;text-align:center;background:linear-gradient(160deg,#d7263d,#8e0f22)}"
+                + "font-family:sans-serif;color:#fff;text-align:center;background:radial-gradient(ellipse at 50% 30%,rgba(255,45,70,.35),transparent 60%),#060608}"
                 + ".s{font-size:90px}h1{margin:10px 0 6px}p{opacity:.85;margin:0 20px 24px}"
-                + "a{background:#fff;color:#c8102e;font-weight:700;font-size:20px;padding:14px 28px;border-radius:99px;text-decoration:none}</style>"
-                + "</head><body><div class='s'>⭐</div><h1>Chloe je bez internetu</h1>"
+                + "a{background:#ff2d46;color:#fff;box-shadow:0 0 18px rgba(255,45,70,.6);font-weight:700;font-size:20px;padding:14px 28px;border-radius:99px;text-decoration:none}</style>"
+                + "</head><body><div class='s'>⭐</div><h1>CHLOE · OFFLINE</h1>"
                 + "<p>Zkontroluj Wi-Fi a zkus to znovu.</p>"
                 + "<a href='" + START_URL + "'>Zkusit znovu</a></body></html>";
         web.loadDataWithBaseURL(null, html, "text/html", "utf-8", null);
